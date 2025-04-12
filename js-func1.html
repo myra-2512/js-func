@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions in JS</title>
+</head>
+<body>
+    <button type="button" onclick="myAdd()">Perform addition</button>
+    <button type="button" onclick="myMul()">Perform multiplication</button>
+    <p id="demo"></p>
+    <script>
+        //globalvariable
+        var n1=5
+
+        function myAdd(x,y){
+            document.write(5+7)
+        }
+        function myMul(){
+            //localvariable
+            var n2=4
+            document.getElementById("demo").innerHTML=n1*n2
+        }
+        //activity3 function expression
+
+       var multiplication = function(s1,s2) {
+        return s1*s2
+           
+       }
+         document.write(multiplication(70,9))
+
+    </script>
+    
+</body>
+</html>
